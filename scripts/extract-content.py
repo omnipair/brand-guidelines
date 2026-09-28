@@ -72,7 +72,7 @@ groups=[
 ('colour','Colour','palette','dawn','Sky, Aqua and Dawn. One continuous spectrum.',[
  ('inspiration','Inspiration & the Sky Axis',['inspiration','sky-axis']),('palette-sky','Sky',['palette-sky']),('palette-aqua','Aqua',['palette-aqua']),('palette-dawn','Dawn',['palette-dawn']),('shades','Shades & neutrals',['shades','neutrals']),('palettes-in-use','Palettes in use',['palettes-in-use'])]),
 ('typography','Typography','type','sky','M Saans. One voice across every touchpoint.',[('type-primary','M Saans',['type-primary'])]),
-('photography','Imagery','image','aqua','Painterly worlds. An unmistakable point of view.',[('territory','Chromatic worldbuilding',['territory']),('environments','Environments',['environments']),('prompt-formula','Prompt formula',['prompt-formula']),('references','References & outputs',['references'])]),
+('photography','Imagery','image','aqua','Painterly worlds. An unmistakable point of view.',[('territory','Open Horizons',['territory']),('environments','Environments',['environments']),('prompt-formula','Prompt formula',['prompt-formula']),('references','References & outputs',['references'])]),
 ('graphic','Graphic system','grid','dawn','Texture and precision, in the same frame.',[('shader','Dither shader',['shader'])]),
 ('diagrams','Technical diagrams','layers','sky','Make the mechanism visible.',[('explainers','Explainer graphics',['explainers'])]),
 ('applications','Applications','shapes','aqua','The identity, out in the world.',[('social','Social media',['social']),('merch','Merchandise & graphics',['merch'])])]

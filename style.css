@@ -342,3 +342,10 @@ img[src*='assets/logo-spec/'], .lockup-hero:has(img[src*='assets/logo-spec/']) {
 @media(max-width: 600px) { .glass-guide .glass-comparison { grid-template-columns: 1fr; } }
 
 :root { --turquoise-180: #067F76; }
+
+/* Open Horizons imagery territory */
+.open-horizons-map { background: #fff; padding: 0; overflow: hidden; }
+.open-horizons-map img { display: block; width: 100%; height: auto; }
+.open-horizons-principles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.open-horizons-principles .tile:last-child { grid-column: 1 / -1; }
+@media (max-width: 640px) { .open-horizons-principles { grid-template-columns: 1fr; } }
