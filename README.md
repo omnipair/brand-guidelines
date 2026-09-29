@@ -1,5 +1,7 @@
 # Omnipair brand guidelines preview
 
+Live on [brand.omnipair.fi](https://brand.omnipair.fi)
+
 Two reading experiences share the same content and assets: individual topics with shareable query links, and a continuous document with topic anchors. The interface opens in dark mode and remembers the reader's theme choice.
 
 ## Development
