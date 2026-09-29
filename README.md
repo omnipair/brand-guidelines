@@ -15,3 +15,7 @@ Two reading experiences share the same content and assets: individual topics wit
 The extraction preserves the Foundation and Verbal Identity writing, removes unfinished chapters and uses only M Saans. Brand assets remain in `public/assets`. Re-running extraction rebuilds the M Saans font download from the supplied variable font.
 
 This project is a separate sample site. It does not change the existing GitHub Pages deployment.
+
+## Social preview
+
+`public/og-image.png` (1280 × 640) is the link preview and the GitHub repository social preview. Its source is `social-preview/card.html`; re-render it with headless Chrome at a 1280 × 640 window.

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Omnipair brand guidelines social preview</title>
+<style>
+  @font-face { font-family: "M Saans"; src: url("../public/assets/fonts/MSaansVF.woff2") format("woff2"); font-weight: 100 900; }
+  :root { --neutral-950: #13100D; --neutral-200: #E6E1DA; --neutral-700: #4D4641; }
+  * { margin: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; background: var(--neutral-950); }
+  .card { position: relative; display: grid; grid-template-columns: 600px 1fr; width: 1280px; height: 640px; overflow: hidden; font-family: "M Saans", sans-serif; color: #fff; }
+  .copy { display: flex; flex-direction: column; justify-content: space-between; padding: 72px 40px 64px 72px; }
+  .lockup { height: 36px; width: auto; display: block; align-self: flex-start; }
+  .eyebrow { font-size: 18px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: #9A918A; margin-bottom: 20px; }
+  h1 { font-size: 64px; line-height: 1; font-weight: 500; letter-spacing: -0.03em; }
+  .lede { margin-top: 24px; font-size: 24px; line-height: 1.35; font-weight: 450; color: var(--neutral-200); max-width: 440px; }
+  .url { font-size: 20px; font-weight: 500; color: #9A918A; }
+  .art { position: relative; margin: 24px 24px 24px 0; border-radius: 28px; overflow: hidden; background: url("../public/assets/imagery/reference-cliff.jpg") 62% 50% / cover no-repeat; }
+  .stops { position: absolute; left: 24px; bottom: 24px; display: flex; gap: 8px; }
+  .stops i { width: 28px; height: 28px; border-radius: 50%; box-shadow: 0 0 0 1px rgba(255,255,255,.25); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="copy">
+      <img class="lockup" src="../public/assets/downloads/Omnipair-Horizontal-DarkWhite-SVG.svg" alt="omnipair" />
+      <div>
+        <div class="eyebrow">Brand guidelines</div>
+        <h1>One identity.<br />Every expression.</h1>
+        <p class="lede">Identity, voice, colour, typography and the visual world of Omnipair.</p>
+      </div>
+      <div class="url">brand.omnipair.fi</div>
+    </div>
+    <div class="art">
+      <div class="stops"><i style="background:#0979E9"></i><i style="background:#30E7D7"></i><i style="background:#BFF3E8"></i><i style="background:#F7C563"></i><i style="background:#EF8332"></i></div>
+    </div>
+  </div>
+</body>
+</html>
